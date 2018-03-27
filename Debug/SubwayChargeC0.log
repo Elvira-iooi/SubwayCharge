@@ -1,0 +1,25 @@
+﻿生成启动时间为 2013-3-3 20:48:57。
+     1>项目“E:\subway\VC工程\SubwayChargeC0\SubwayChargeC0.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“.\Debug\SubwayChargeC0.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“.\Debug\SubwayChargeC0.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\SubwayCharge.cpp src\SubwayList.cpp
+         SubwayList.cpp
+         SubwayCharge.cpp
+     1>e:\subway\vc工程\subwaychargec0\src\subwaycharge.cpp(60): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\SubwayChargeC0.exe.embed.manifest.res" .\Debug\SubwayChargeC0_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\SubwayChargeC0.exe" /INCREMENTAL /NOLOGO lib\ExamApi.lib lib\SocketApi.lib lib\SubwayChargeApi.lib Ws2_32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\SubwayChargeC0.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\subway\VC工程\SubwayChargeC0\Debug\SubwayChargeC0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\SubwayChargeC0.lib" /MACHINE:X86 .\Debug\SubwayChargeC0.exe.embed.manifest.res
+         .\Debug\SubwayCharge.obj
+         .\Debug\SubwayList.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“LIBCD.lib”
+     1>已完成生成项目“E:\subway\VC工程\SubwayChargeC0\SubwayChargeC0.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.79
